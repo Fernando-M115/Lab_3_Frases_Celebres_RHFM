@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Frases Célebres</string>
+    <string name="Boton_Generar">Generar No.</string>
+    <string name="Boton_Frase">Mostrar Frase</string>
+    <string name="Autor_1">Doctor. Gregory House</string>
+    <string name="Frase_1">"El tiempo lo cambia todo, eso es lo que la gente dice, pero no es verdad.\nHacer cosas cambia las cosas.\nNo hacer nada, deja las cosas exactamente como estan."</string>
+    <string name="Autor_2">William of Ockham</string>
+    <string name="Frase_2">"En igualdad de condiciones, la explicación más simple suele ser la más probable."</string>
+    <string name="Autor_3">Rocki Balboa</string>
+    <string name="Frase_3">"Si sabes lo que vales, ve y consigue lo que mereces, pero tendrás que aguantar los golpes."</string>
+</resources>
