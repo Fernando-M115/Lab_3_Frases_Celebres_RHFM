@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
 
+    //Declaracion de las variables para tener acceso y control de los recursos utilizados
     private ImageView imagen;
     private TextView autor;
     private TextView frase;
@@ -21,9 +22,13 @@ public class SecondActivity extends AppCompatActivity {
         //Recibimos el valor de la otra activity
         Intent intent = getIntent();
         int valor = intent.getIntExtra("numeroEnviado", 0);
+
+        //Tomamos el control de los recursos y los asignamos a las variables para poder cambiarlos
         imagen = findViewById(R.id.imagenPersonaje);
         autor = findViewById(R.id.textAutor);
         frase = findViewById(R.id.textFrase);
+
+        //Un if para saber cual numero es y mostrar los valores correspondientes
         if (valor == 1) {
             imagen.setImageResource(R.drawable.gregory_house);
 

@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Boton creado para el metodo de generar un numero aleatorio-->
+    <!--Se le añadio el onClick para enlazarlo al codigo de Java.-->
     <Button
         android:id="@+id/boton_generar"
         android:layout_width="0dp"
@@ -19,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="generateNumber"/>
 
+    <!-- TextView para mostrar el numero random generado por el metodo anterior-->
     <TextView
         android:id="@+id/txtNumeroRandom"
         android:layout_width="0dp"
@@ -33,8 +36,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boton_generar" />
+        app:layout_constraintTop_toBottomOf="@+id/boton_generar"
+        tools:ignore="RtlCompat" />
 
+    <!-- Boton generado para una vez que se haya generado el numero random mostrar la frase-->
     <Button
         android:id="@+id/boton_frase"
         android:layout_width="0dp"
